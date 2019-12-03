@@ -26,7 +26,8 @@ public class Mus {
         usrguess = scanner.nextInt();
         if (usrguess== valgtNut) {
             System.out.println("mus!");
-            break;
+            valgtnut();
+            System.out.println("ny nød er valgt");
         }
 
         else {
