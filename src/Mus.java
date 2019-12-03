@@ -30,12 +30,21 @@ public class Mus {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             usrguess = scanner.nextInt();
+            nucount[usrguess-1] =false;
             if (usrguess == valgtNut) {
                 System.out.println("mus!");
                 valgtnut();
                 System.out.println("ny nød er valgt");
             } else {
                 System.out.println("Haps");
+            }
+            boolean erAltspist = true;
+            for (int i = 0; i < nucount.length; i++) {
+                if (nucount[i] = true) {
+                    erAltspist = false;
+
+            }
+
             }
         }
     }
