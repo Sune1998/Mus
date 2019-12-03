@@ -5,9 +5,13 @@ public class Main extends Mus {
         System.out.println("Velcome to ***Mus***");
 
         Mus mus = new Mus();
-        System.out.println();
+        mus.gennuts();
+
+
         System.out.println("gæt et nummer");
         Scanner scanner = new Scanner(System.in);
         scanner.nextInt();
+        mus.Usrguess();
+
     }
 }
